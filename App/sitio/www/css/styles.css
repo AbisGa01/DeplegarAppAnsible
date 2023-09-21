@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e5e5; /* Color de fondo pastel */
+    text-align: center;
+}
+
+.container {
+    background-color: #f6d7e1; /* Color de contenedor pastel */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 24px;
+    color: #f29d35; /* Color de texto pastel */
+}
+
+p {
+    font-size: 18px;
+    color: #f29d35; /* Color de texto pastel */
+}
+
+.heart::after {
+    content: '♥';
+    color: #f29d35; /* Color de corazón pastel */
+    font-size: 24px;
+    margin-left: 5px;
+}

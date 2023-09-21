@@ -1,0 +1,7 @@
+---
+mysql_root_password: " "
+app_user: "abis"
+http_host: "app.agallegos.com"
+http_conf: "app.agallegos.com.conf"
+http_port: "80"
+disable_default: true
